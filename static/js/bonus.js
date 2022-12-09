@@ -70,7 +70,7 @@ function gaugeChart(subjectID, wfreqValue) {
                 color: "850000"
                 }
         }],
-        title: `<b>Test Subject ${subjectID}: Belly Button Washing Frequency</b> <br> Scrubs per Week`,
+        title: `<b>Test Subject ${subjectID} <br> Belly Button Washing Frequency</b> <br> Scrubs per Week`,
         height: 500,
         width: 500,
         xaxis: {
