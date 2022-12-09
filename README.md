@@ -7,3 +7,9 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 The dashboard deployed as part of this challenge can be viewed at https://snnandhini.github.io/Belly_Button_Challenge/
 
+The dashboard has a Dropdown Menu listing the Test Subject IDs to choose from, a Demographic Information Panel, a Horizontal Bar Chart, a Bubble Chart and a Gauge Chart.
+
+
+
+![image](https://user-images.githubusercontent.com/111614210/206615693-3fd0dc8a-6869-4b5e-b563-dca53b36dcec.png)
+
