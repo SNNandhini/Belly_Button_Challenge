@@ -7,9 +7,56 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 The dashboard deployed as part of this challenge can be viewed at https://snnandhini.github.io/Belly_Button_Challenge/
 
-The dashboard has a Dropdown Menu listing the Test Subject IDs to choose from, a Demographic Information Panel, a Horizontal Bar Chart, a Bubble Chart and a Gauge Chart.
+The dashboard has a Dropdown Menu, a Demographic Information Panel, a Horizontal Bar Chart, a Bubble Chart and a Gauge Chart.
+
+## Drop Down Menu
+-   The dropdown menu lists the Test Subject IDs to choose from.
+-   D3.json function is used to fetch the Test Subject IDs (names) from the json file.
 
 
+## Demographic Information Panel
+-   This panel displays the selected individual's (Test Subject) demographic data.
+-   Each key-value pair of the metadata pulled from the json file is used for populating this info.
 
+
+## Bar Chart
+-   This plotly horizontal bar chart displays the top 10 OTUs found in the selected individual.
+-   For this the otu_ids and sample_values are used.
+-   The hovertext is based on the otu_labels values.
+
+
+## Bubble Chart
+-   The plotly bubble chart displays all OTUs for the selected individual.
+-   otu_ids and sample_values are used as the x and y values respectively.
+-   sample_values are used for marker size, otu_ids for marker colours and otu_labels for text values.
+
+
+## Gauge Chart (Bonus)
+-   The plotly gauge chart is based on the washing frequency (wfreq) value of the selected individual. 
+-   The wfreq values range from 0 through 9.
+(Hunt, 2021) (Shokeen, 2017) (codepen, n.d.)
+
+
+The screenshot of the dashboard with all the above components is as follows:
 ![image](https://user-images.githubusercontent.com/111614210/206615693-3fd0dc8a-6869-4b5e-b563-dca53b36dcec.png)
+
+## Files Uploaded
+-   **Landing Page** - index.html
+-   **Javascript files** - app.js and bonus.js in the folder static/js/
+
+## References
+1)  Hunt, A., 2021. Observablehq. [Online] 
+    Available at: https://observablehq.com/@arronhunt/building-a-gauge-meter-with-plotly
+    [Accessed 04 12 2022].
+
+2)  Shokeen, M., 2017. code.tutsplus. [Online] 
+    Available at: https://code.tutsplus.com/tutorials/create-interactive-charts-using-plotlyjs-pie-and-gauge-charts--cms-29216
+    [Accessed 04 12 2022].
+
+3)  codepen, n.d. codepen. [Online] 
+    Available at: https://codepen.io/plotly/pen/rxeZME/
+    [Accessed 04 12 2022].
+
+
+
 
